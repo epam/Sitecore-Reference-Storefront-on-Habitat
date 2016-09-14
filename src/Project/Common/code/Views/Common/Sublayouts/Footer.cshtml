@@ -1,0 +1,20 @@
+﻿@using Sitecore
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<div id="B07-FooterNavigation" class="row">
+    <div id="B07-FooterNavigation" class="row">
+        <div class="col-md-3 col-sm-3">
+            @Html.Sitecore().Placeholder("footer-left")
+        </div>
+        <div class="col-md-3 col-sm-3">
+            @Html.Sitecore().Placeholder("footer-center-left")
+        </div>
+        <div class="col-md-3 col-sm-3">
+            @Html.Sitecore().Placeholder("footer-center-right")
+        </div>
+        <div class="col-md-3 col-sm-3">
+            @Html.Sitecore().Placeholder("footer-right")
+        </div>
+    </div>
+</div>

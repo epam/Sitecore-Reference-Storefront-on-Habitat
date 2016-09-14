@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {75543B30-CC79-40B4-9C93-E3BD71D91A7D}
+database: master
+path: /sitecore/layout/Renderings/Feature/Cart/ShoppingCart
+parent: {2B710507-A182-4CE9-92A0-E04472E7167A}
+name: ShoppingCart
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+created: 20160714T224307:636041329872170000
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 31
+
+/Views/Cart/ShoppingCart.cshtml
+----field----
+field: {E514A1EB-DDBA-44F7-8528-82CA2280F778}
+name: JavaScript assets
+key: javascript assets
+content-length: 147
+
+/scripts/ViewModels/addresses_VM.js;/scripts/ViewModels/delivery_VM.js;/scripts/cart.js;/scripts/CartKnockoutModels.js;/scripts/InitShoppingCart.js
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+150
+----version----
+language: en
+version: 1
+revision: 2feff4a4-6a74-4bc3-a805-8d388588dcee
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160707T142222Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2feff4a4-6a74-4bc3-a805-8d388588dcee
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160811T152157Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

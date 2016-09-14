@@ -1,0 +1,18 @@
+﻿@using Sitecore.Feature.Search
+@using Sitecore.Foundation.CommerceServer.Infrastructure.Constants
+@model Sitecore.Feature.Search.Models.SearchBarModel
+@{
+    var searchPlaceholder = Html.Sitecore().Field(Templates.SearchBar.Fields.PagesOnEachSideOfCurrent.ToString()).ToString();
+}
+
+<div id="B03-SearchBar" class="search-bar">
+    <form action="~/search" method="get" id="SearchForm">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="@searchPlaceholder"
+                   name="@StorefrontConstants.QueryStrings.SearchKeyword" value="@Model.SearchKeyword">
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+            </span>
+        </div>
+    </form>
+</div>

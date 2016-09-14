@@ -1,0 +1,15 @@
+﻿<div id="globalErrors" class="wrap-error generic-error-handler" data-bind="visible: shouldShowErrorList">
+    <div class="container">
+        <div class="row">
+            <table>
+                <tbody data-bind="foreach: errorList">
+                    <tr>
+                        <td>
+                            <p class="text-danger pull-left" pid="errormessage" data-bind="text: errorMessage"></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

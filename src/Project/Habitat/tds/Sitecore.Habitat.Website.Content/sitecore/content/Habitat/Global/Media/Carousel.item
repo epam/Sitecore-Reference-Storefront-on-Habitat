@@ -1,0 +1,106 @@
+----item----
+version: 1
+id: {6B3E2125-9402-4ABE-BE65-1DC375B2111E}
+database: master
+path: /sitecore/content/Habitat/Global/Media/Carousel
+parent: {EA13174A-B43E-4F68-B474-B41188771A9E}
+name: Carousel
+master: {00000000-0000-0000-0000-000000000000}
+template: {C18D3794-D126-4548-BFC8-89358DE6E9C1}
+templatekey: Carousel
+created: 20160705T111344:636033140241500000
+
+----version----
+language: da
+version: 1
+revision: a76bac16-be06-4d4b-8a1d-e68165693a35
+
+----field----
+field: {72EA8682-24D2-4BEB-951C-3E2164974105}
+name: MediaSelector
+key: mediaselector
+content-length: 155
+
+{98D1970C-E669-448F-9E2A-DE9087A46F58}|{EC545DC1-F12B-4B22-8FEB-7F0A4211C0E8}|{69CF65FB-F46E-4038-BBFB-66695B9178E4}|{12CFA7C1-B5BD-4C99-B6F4-221423F2E0E1}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160112T160942Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a76bac16-be06-4d4b-8a1d-e68165693a35
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160128T212043Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn
+----version----
+language: en
+version: 1
+revision: 737b9a31-93df-4d6f-9a19-a85df4df5bea
+
+----field----
+field: {72EA8682-24D2-4BEB-951C-3E2164974105}
+name: MediaSelector
+key: mediaselector
+content-length: 116
+
+{C901512F-7EF5-416F-8457-45F36013756A}|{0C146681-1E22-4878-AB40-A33C22AEDDAE}|{2F80C10C-B53C-439D-AAD9-C4DC7E6BB3CC}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150902T071953Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+737b9a31-93df-4d6f-9a19-a85df4df5bea
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160705T150041Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

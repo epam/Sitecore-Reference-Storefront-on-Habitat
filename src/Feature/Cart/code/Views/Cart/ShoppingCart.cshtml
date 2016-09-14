@@ -1,0 +1,72 @@
+﻿@using Sitecore.Feature.Cart
+@using Sitecore.Mvc
+
+@{
+    var productDetailsLabel = Html.Sitecore().Field(Templates.ShoppingCart.Fields.ProductDetailsLabel.ToString(), Html.Sitecore().CurrentItem);
+    var unitPriceLabel = Html.Sitecore().Field(Templates.ShoppingCart.Fields.UnitPriceLabel.ToString(), Html.Sitecore().CurrentItem);
+    var quantityLabel = Html.Sitecore().Field(Templates.ShoppingCart.Fields.QuantityLabel.ToString(), Html.Sitecore().CurrentItem);
+    var totalLabel = Html.Sitecore().Field(Templates.ShoppingCart.Fields.TotalLabel.ToString(), Html.Sitecore().CurrentItem);
+
+    var enterCouponCodeMessage = Html.Sitecore().Field(Templates.ShoppingCart.Fields.EnterCouponCodeMessage.ToString(), Html.Sitecore().CurrentItem);
+    var promoCodeLabel = Html.Sitecore().Field(Templates.ShoppingCart.Fields.PromoCodeLabel.ToString(), Html.Sitecore().CurrentItem);
+    var promoCodeLabelPlaceholder = Html.Sitecore().CurrentItem[Templates.ShoppingCart.Fields.PromoCodeLabel.ToString()];
+    var promoCodeListLabel = Html.Sitecore().Field(Templates.ShoppingCart.Fields.PromoCodeListLabel.ToString(), Html.Sitecore().CurrentItem);
+    var addPromoCodeLabel = Html.Sitecore().Field(Templates.ShoppingCart.Fields.AddPromoCodeButton.ToString(), Html.Sitecore().CurrentItem);
+    var addingPromoCodeLabel = Html.Sitecore().CurrentItem[Templates.ShoppingCart.Fields.AddingPromoCodeButton.ToString()];
+    var removeButtonLabel = Html.Sitecore().Field(Templates.ShoppingCart.Fields.RemoveButton.ToString(), Html.Sitecore().CurrentItem);
+}
+
+<div class="wrap-content-checkout" id="cartContainer">
+    <div class="col-md-12" id="cartSection">
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr class="cart-header">
+                        <th class="del-row">&nbsp;</th>
+                        <th class="hidden-sm hidden-xs">&nbsp;</th>
+                        <th>@productDetailsLabel</th>
+                        <th>@unitPriceLabel</th>
+                        <th>@quantityLabel</th>
+                        <th class="text-right">@totalLabel</th>
+                    </tr>
+                </thead>
+
+                <tbody data-bind="foreach: cartLines">
+                    @Html.Partial("~/Views/Cart/_LineItem.cshtml")
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-md-12" id="promoCodeSection">
+        <div class="form-group"><h3>@enterCouponCodeMessage</h3></div>
+        <div class="col-md-6">
+            <div class="form-group">
+
+                <label for="discountcode_cart">@promoCodeLabel</label>
+                <input type="text" class="form-control" id="discountcode_cart" placeholder="@promoCodeLabelPlaceholder" data-bind="value: promoCode, valueUpdate: 'keyup'">
+            </div>
+            <div class="form-group">
+                <button type="button" class="cart-applydiscount btn btn-success" data-bind="enable: hasPromoCode" data-loading-text="@addingPromoCodeLabel">@addPromoCodeLabel</button>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <table class="table">
+                <tbody data-bind="foreach: promoCodes">
+                    <tr>
+                        <td>
+                            <span class="title">@promoCodeListLabel</span><span data-bind="text: $data"></span>
+                        </td>
+                        <td style="width: 15%;">
+                            <span class="delete">
+                                <a class="delete-promocode" data-bind="attr: {'data-ajax-promocode': $data}"><span class="glyphicon glyphicon-remove"></span> @removeButtonLabel</a>
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+
+        @Html.Partial("~/Views/Cart/_CartSummary.cshtml")
+    </div>

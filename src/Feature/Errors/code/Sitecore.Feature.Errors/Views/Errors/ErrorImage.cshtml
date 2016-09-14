@@ -1,0 +1,4 @@
+﻿@using Sitecore.Feature.Errors
+<div id="E02-ErrorImage" class="logo">
+    @Html.Sitecore().Field(Templates.HasErrorImage.Fields.Link.ToString(), Model.Item, new { text = @Html.Sitecore().Field(Templates.HasErrorImage.Fields.Image.ToString(), Model.Item) })
+</div>

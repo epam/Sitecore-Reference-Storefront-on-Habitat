@@ -1,0 +1,78 @@
+﻿@using Sitecore.Foundation.Assets
+@using Sitecore.Foundation.Assets.Models
+
+@inherits WebViewPage
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="@Sitecore.Context.Language.CultureInfo.TwoLetterISOLanguageName">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    @if (!Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        @Html.Sitecore().Placeholder("head")
+    }
+
+    @RenderAssetsService.Current.RenderStyles()
+    @RenderAssetsService.Current.RenderScript(ScriptLocation.Head)
+</head>
+<body class="header-static @(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
+
+    <form id="_CRSFform" action="#" method="post">
+        @Html.AntiForgeryToken()
+    </form>
+
+    <div id="main-container">
+        <header class="wrap-topbar">
+            @Html.Sitecore().Placeholder("header-top")
+        </header>
+        <div>
+            <div class="message-area">
+                @Html.Sitecore().Placeholder("messages")
+            </div>
+        </div>
+        <section class="container">
+            @Html.Sitecore().Placeholder("navbar")
+
+            @Html.Sitecore().Placeholder("page-layout")
+        </section>
+        <footer>
+            <div class="container">
+                @Html.Sitecore().Placeholder("footer")
+            </div>
+        </footer>
+
+        @*@if (!Sitecore.Context.PageMode.IsExperienceEditor)
+            {
+                <div class="off-canvas-sidebar off-canvas-sidebar-right">
+                    <div class="btn-group-vertical" role="group">
+                        <button type="button" class="btn btn-info sidebar-closed" data-toggle="sidebar" title="@Captions.OpenVisitDetailsPanel" data-side="right">
+                            <span class="glyphicon glyphicon-info-sign icon-md "></span>
+                        </button>
+                        <button href="#" onclick="jQuery('head').trigger('visit-info:refresh')" style="display: none" class="btn btn-info sidebar-opened" title="@Captions.RefreshVisitDetailsPanel">
+                            <span class="glyphicon glyphicon-refresh icon-md "></span>
+                        </button>
+
+                        <a href="/api/sitecore/Demo/EndVisit" class="btn btn-success sidebar-opened" style="display: none" title="@Captions.EndVisit">
+                            <span class="glyphicon glyphicon-eye-close icon-md "></span>
+                        </a>
+                        <button type="button" class="btn btn-danger sidebar-opened" style="display: none" data-toggle="sidebar" title="@Captions.CloseVisitDetailsPanel" data-side="right">
+                            <span class="glyphicon glyphicon-remove-circle icon-md "></span>
+                        </button>
+                    </div>
+
+                    <div class="sidebar sidebar-fixed-right">
+                        @Html.Sitecore().Placeholder("page-sidebar")
+                    </div>
+                </div>
+            }*@
+    </div>
+</body>
+</html>

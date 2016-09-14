@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {4BEE27D3-F30E-4467-A57A-4FFF56C7E3FE}
+database: master
+path: /sitecore/content/Habitat/Home/Product/*
+parent: {4833D35E-3B01-4395-93D5-273AA8398505}
+name: *
+master: {00000000-0000-0000-0000-000000000000}
+template: {64CA6109-64AB-487F-853F-A406FF3115B6}
+templatekey: Product Page
+created: 20160708T102659:636035704199870000
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1023
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{74F0F5F3-C656-4F6C-8B7F-083F2AF0B267}" p:after="*[1=2]" s:id="{911E7A98-33C6-40CE-B24C-B7C5D82ADE57}" s:ph="messages" /></d><d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}" s:l="{2BC97063-6736-48E4-916C-6DE20C64606C}"><r uid="{7475AC75-881B-4D0B-8741-EDD9757FE324}" s:ds="" s:id="{946517BC-5838-4D31-AECF-67156F4DDA12}" s:par="" s:ph="page-layout" /><r uid="{490D3EE0-869C-4BDC-97DF-09164FEAF057}" s:ds="" s:id="{750A88C0-47FA-40D9-8B74-5D257EDE845B}" s:par="" s:ph="center" /><r uid="{DF62B3B5-68B5-4D6C-8AD3-E5B82C2A3B36}" s:ds="" s:id="{A7CEEE33-046A-49DA-8D0B-636BAC05F97F}" s:par="" s:ph="productimages" /><r uid="{A74A2655-B8FD-4762-85B4-E611A00FEF04}" p:after="r[@uid='{DF62B3B5-68B5-4D6C-8AD3-E5B82C2A3B36}']" s:id="{49424190-0EFA-4414-8D18-4569CC8EA5FD}" s:ph="productrating" /><r uid="{06FE462A-2DD8-43D3-908B-6376CE73FA55}" p:after="*[1=2]" s:id="{83DA4C94-D96C-4957-B026-6C9AC77DB964}" s:ph="productinformation" /></d></r>
+----version----
+language: en
+version: 1
+revision: 1a915a81-b94d-4737-8e4b-ace6c959a9b0
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150108T195812Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1a915a81-b94d-4737-8e4b-ace6c959a9b0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160809T095742Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

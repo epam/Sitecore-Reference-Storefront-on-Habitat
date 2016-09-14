@@ -1,0 +1,3 @@
+﻿$(function () {
+    initWishListHeaders("wishListsSection");
+});

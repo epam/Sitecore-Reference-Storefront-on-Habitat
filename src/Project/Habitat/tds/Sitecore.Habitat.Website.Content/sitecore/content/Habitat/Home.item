@@ -1,0 +1,281 @@
+----item----
+version: 1
+id: {DAC24EDD-44FB-42EF-9ECD-1E8DAF706386}
+database: master
+path: /sitecore/content/Habitat/Home
+parent: {725A45E3-E307-4B95-B363-2782B059DF06}
+name: Home
+master: {00000000-0000-0000-0000-000000000000}
+template: {4A8822CC-B418-4452-AB0F-8BB6DF2F2114}
+templatekey: Home
+created: 20160727T051022:636051930225600000
+
+----field----
+field: {B36DE708-9413-4382-BB53-B944E6D02CFC}
+name: Catalogs
+key: catalogs
+content-length: 38
+
+{2C1225CC-24C0-496B-AEB7-7BEF84C0252A}
+----field----
+field: {9E712A53-D222-46EA-A6EF-82F29AF0E0FD}
+name: Supports Gift Card Payment
+key: supports gift card payment
+content-length: 1
+
+1
+----field----
+field: {C3C1DE9D-8881-47D1-B10F-D4AB17306CD5}
+name: Supports Wishlists
+key: supports wishlists
+content-length: 1
+
+1
+----field----
+field: {CAF0C107-BBB2-4EED-BA3E-692B1D975854}
+name: Supports Loyalty Program
+key: supports loyalty program
+content-length: 1
+
+1
+----field----
+field: {268036A9-3394-4964-8CB3-AC4CA68BF4B4}
+name: RouteKey
+key: routekey
+content-length: 7
+
+contoso
+----field----
+field: {239412BD-046D-4C97-98BA-17B5FB07F004}
+name: ShopName
+key: shopname
+content-length: 7
+
+website
+----field----
+field: {0D2D45C1-783B-4A72-A797-F5907BC37CFE}
+name: DefaultCartName
+key: defaultcartname
+content-length: 7
+
+Default
+----field----
+field: {872F1C3E-42E7-4F28-9B06-AE6D0C40C3CA}
+name: DefaultProductId
+key: defaultproductid
+content-length: 11
+
+22565422120
+----field----
+field: {2F3DFFC4-3648-4183-8741-1CC97A04937C}
+name: GiftCardProductId
+key: giftcardproductid
+content-length: 11
+
+22565422120
+----field----
+field: {51CDF89D-E4E6-438B-A6CF-75747529CAFD}
+name: GiftCardAmountOptions
+key: giftcardamountoptions
+content-length: 15
+
+10|20|25|50|100
+----field----
+field: {A8925EB2-72E3-4636-9F21-C894A61975B8}
+name: Sender Email Address
+key: sender email address
+content-length: 41
+
+no-reply@sitecore.commerce.storefront.com
+----field----
+field: {F605D200-01A0-4235-8886-391C4C906092}
+name: ChannelId
+key: channelid
+content-length: 10
+
+5637144608
+----field----
+field: {7FD4CA02-383C-45E1-902D-C3ED9E4A112F}
+name: Max Number of Addresses
+key: max number of addresses
+content-length: 1
+
+6
+----field----
+field: {E147B56A-CE65-4EAD-AB90-A561BF4B389B}
+name: Max Number of WishLists
+key: max number of wishlists
+content-length: 2
+
+10
+----field----
+field: {D3512838-C09A-4388-B8E9-65A3E1FEF1F1}
+name: Max Number of WishList Items
+key: max number of wishlist items
+content-length: 2
+
+10
+----field----
+field: {7315350F-F3B5-4740-A227-186F7A2BA9F7}
+name: Default Currency
+key: default currency
+content-length: 38
+
+{80F76147-FD9C-440D-A457-D2B3A4AA9F7A}
+----field----
+field: {CC553205-A4D2-4FEB-B722-9B41E9FA5271}
+name: TrackingCookieName
+key: trackingcookiename
+content-length: 8
+
+_visitor
+----field----
+field: {E00B561C-503B-47AF-979F-D6C0C911721D}
+name: IdKeyName
+key: idkeyname
+content-length: 9
+
+visitorId
+----field----
+field: {0CCF5AC9-FA08-4421-9651-707B33193F8E}
+name: CookieExpiryInDays
+key: cookieexpiryindays
+content-length: 1
+
+2
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 219
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{A5AB1452-0DB9-49B2-8721-A45335139522}" p:after="*[1=2]" s:id="{911E7A98-33C6-40CE-B24C-B7C5D82ADE57}" s:ph="messages" /></d></r>
+----version----
+language: da
+version: 1
+revision: a89b7d1c-d091-4990-a268-64b0e7135752
+
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: NavigationTitle
+key: navigationtitle
+content-length: 4
+
+Hjem
+----field----
+field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
+name: BrowserTitle
+key: browsertitle
+content-length: 46
+
+Fleksibilitet, Enkelhed,  Udvidelsesmuligheder
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160105T101156Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a89b7d1c-d091-4990-a268-64b0e7135752
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160405T151920Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn
+----version----
+language: en
+version: 1
+revision: 0a74d1f3-6c1d-436a-839b-f9624ac92b6e
+
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: NavigationTitle
+key: navigationtitle
+content-length: 4
+
+Home
+----field----
+field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
+name: BrowserTitle
+key: browsertitle
+content-length: 38
+
+Flexibility, Simplicity, Extensibility
+----field----
+field: {4B16F930-73C9-4643-BB1B-00F06E60A073}
+name: MetaKeywords
+key: metakeywords
+content-length: 77
+
+{425DF582-C8D5-4EBA-B23E-FA1A069435DD}|{153640E2-FD0D-42D3-8480-F9615EE78A9A}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150823T123346Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0a74d1f3-6c1d-436a-839b-f9624ac92b6e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160801T153321Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

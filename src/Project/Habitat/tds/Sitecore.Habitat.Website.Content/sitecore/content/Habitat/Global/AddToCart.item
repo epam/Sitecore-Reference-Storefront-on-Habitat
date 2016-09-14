@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {27B8B175-F0C5-4CB9-A91D-40A8C8516DC9}
+database: master
+path: /sitecore/content/Habitat/Global/AddToCart
+parent: {4B67A7F9-7246-4A59-A051-961095C2DC70}
+name: AddToCart
+master: {00000000-0000-0000-0000-000000000000}
+template: {6B3C9998-AB94-4A3A-A44F-D9E2DB12739D}
+templatekey: AddToCart
+created: 20160708T122654:636035776140430000
+
+----version----
+language: en
+version: 1
+revision: 75d1d516-7011-4c3d-b732-50819eb38c88
+
+----field----
+field: {524BCD07-A070-4B7B-9BFB-9D3B84ECE74B}
+name: Quantity Label
+key: quantity label
+content-length: 9
+
+Quantity:
+----field----
+field: {CCC6D8B6-A3CE-4E5A-B70A-297E62666ACE}
+name: AddingToCart Label
+key: addingtocart label
+content-length: 17
+
+Adding to Cart...
+----field----
+field: {FA500705-683D-4F84-AFF5-29585F782D72}
+name: AddToCart Label
+key: addtocart label
+content-length: 11
+
+Add to cart
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150421T100248Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+75d1d516-7011-4c3d-b732-50819eb38c88
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160713T141624Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

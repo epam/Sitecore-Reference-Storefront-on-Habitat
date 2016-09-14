@@ -1,0 +1,1 @@
+Put a content of Sitecore **bin** folder here.

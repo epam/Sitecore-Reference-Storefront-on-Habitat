@@ -1,0 +1,192 @@
+----item----
+version: 1
+id: {7536D18B-EBCF-4A24-9DDE-8BA77AA60DC0}
+database: master
+path: /sitecore/content/Habitat/Home/AccountManagement/MyOrder
+parent: {4D316BBA-345F-4929-9E84-A2208C0F7AA6}
+name: MyOrder
+master: {00000000-0000-0000-0000-000000000000}
+template: {D4D9E81A-C494-43AE-9851-410D09394CF8}
+templatekey: MyOrder Page
+created: 20160719T043235:636044995558870000
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 4656
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{ED043C36-CD48-4EDF-A288-EC404EE1CD42}"><r uid="{0E2D603A-CF36-4EE2-B598-D2E06AEBD5AE}"><p:d /></r><r uid="{17F64DAC-2A2C-4F61-A993-F3BC59203AA0}"><p:d /></r><r uid="{1B0865BA-8725-40D7-B472-5466055F1834}"><p:d /></r><r uid="{8C308774-5362-4996-A416-527ED85204F1}"><p:d /></r><r uid="{883484CD-FC2D-469D-95F7-610E6C3763A1}"><p:d /></r><r uid="{1A6AE860-A323-460D-B8D7-CEFA22469672}"><p:d /></r><r uid="{D0FFD21B-BDDF-4C59-A150-C43C76CABF37}"><p:d /></r><r uid="{5D2C83EE-F8CA-41B9-BBF2-03CBC74D3F52}"><p:d /></r><r uid="{0D3D37F8-ED81-4F72-B7C2-8D5AF8EB0094}"><p:d /></r><r uid="{3C2F52A6-A439-456D-A812-04A831DB8A0F}"><p:d /></r><r uid="{F720367A-12C1-4818-887C-EB6B70A32640}"><p:d /></r><r uid="{23C64976-8A0E-4DFE-9D35-F5EC89523E37}"><p:d /></r><r uid="{9DE12E81-5D05-4724-A417-9CFA6FA765E8}" s:ds="" s:par="" s:ph="page-main" /><r uid="{90413A71-AF3B-426B-938F-DCD2F2968374}"><p:d /></r><r uid="{85DB9F67-9D13-4E36-849E-4A9ECFC07D98}" p:after="r[@uid='{9DE12E81-5D05-4724-A417-9CFA6FA765E8}']" s:id="{C28B9C5F-8E01-42EC-ADF6-3324FAF92C7D}" s:ph="header-top" /><r uid="{31A3CB61-8722-4A4A-BE79-8EAD6DEC1F38}" p:after="r[@uid='{85DB9F67-9D13-4E36-849E-4A9ECFC07D98}']" s:id="{2695013C-DD51-410B-9983-F271F16C727D}" s:ph="left-header-top" /><r uid="{5E7F551D-54D1-4CD4-92F0-7DFF2C92B680}" p:after="r[@uid='{31A3CB61-8722-4A4A-BE79-8EAD6DEC1F38}']" s:ds="{B5F108D3-651F-4344-BF9B-8F10675DDBA0}" s:id="{A00F70C8-8472-4C86-9E3A-1B7D245DD026}" s:par="" s:ph="center-header-top" /><r uid="{2B38E16F-E31B-45D4-879B-C55C6359FC8D}" p:after="r[@uid='{5E7F551D-54D1-4CD4-92F0-7DFF2C92B680}']" s:ds="{9988B682-59C7-4319-8BF9-7071F132A5AD}" s:id="{9AA8E388-A6BD-46E1-A73B-DDEF601DE6F8}" s:par="" s:ph="right-header-top" /><r uid="{E0490EB3-488E-449A-AD6C-D003B4B3D1C7}" p:after="r[@uid='{2B38E16F-E31B-45D4-879B-C55C6359FC8D}']" s:id="{E26A158B-FA1E-4E9B-8622-E4458243FF46}" s:ph="navbar" /><r uid="{573A6E31-741B-4E60-B4B0-4C282E369E63}" p:after="r[@uid='{E0490EB3-488E-449A-AD6C-D003B4B3D1C7}']" s:id="{3B5A2AD7-7BD8-447C-AB1F-513B0F7536EA}" s:ph="navbar-extra" /><r uid="{A8F42B30-315A-43F5-93B9-D43409759346}" p:after="r[@uid='{573A6E31-741B-4E60-B4B0-4C282E369E63}']" s:ds="{98CE979E-638E-4EE0-AD7F-05164173F1C1}" s:id="{A47C8288-7D4C-45FF-B75F-4AEDBF58A02D}" s:par="" s:ph="navbar-extra-left" /><r uid="{44007B00-2AFC-42EB-B23B-CDCEFACC6CFE}" p:after="r[@uid='{A8F42B30-315A-43F5-93B9-D43409759346}']" s:ds="{5886D851-1625-48AE-A787-84FC5B5EB271}" s:id="{ECF44B36-1479-4B15-871E-8DD87226B92D}" s:par="" s:ph="navbar-extra-right" /><r uid="{73C56852-C839-4636-9980-0805AB586FF9}" p:after="r[@uid='{44007B00-2AFC-42EB-B23B-CDCEFACC6CFE}']" s:ds="{889A6934-BCDC-4294-94B7-6D141E7312B4}" s:id="{CFD437A6-404A-4C8C-8A41-EED2FB86D5DE}" s:par="" s:ph="navbar-main" /><r uid="{9C1D075C-206E-4FF3-9093-1E9316815410}" p:after="r[@uid='{73C56852-C839-4636-9980-0805AB586FF9}']" s:id="{A2216CA7-B205-4042-A345-72117D0086C3}" s:ph="page-layout" /><r uid="{F76E4A20-39AE-45DA-AD9B-28EC3EE45B7D}" p:after="r[@uid='{9C1D075C-206E-4FF3-9093-1E9316815410}']" s:id="{092B8953-939D-4717-B22C-70A1671FDCF5}" s:ph="page-header" /><r uid="{3A5DCFE2-E19B-42E9-9757-2D44EA7939EB}" p:after="r[@uid='{F76E4A20-39AE-45DA-AD9B-28EC3EE45B7D}']" s:id="{299FD8EA-2CFD-4A69-9CA4-7EA24CD34A46}" s:ph="footer" /><r uid="{71037F3B-3DAE-42AD-AFD7-A07B916BCEB9}" p:after="r[@uid='{3A5DCFE2-E19B-42E9-9757-2D44EA7939EB}']" s:ds="{2F1FC7A0-EDA8-48DC-AF4C-B7C4EA1776F2}" s:id="{F366FBA9-EF26-4007-988A-63CB64649C46}" s:par="" s:ph="footer-left" /><r uid="{1649DEAE-9A62-4BAD-A6C6-95FCBAABE95B}" p:after="r[@uid='{71037F3B-3DAE-42AD-AFD7-A07B916BCEB9}']" s:ds="{CAC161D0-F558-4E05-ACA0-086F377D38E8}" s:id="{F366FBA9-EF26-4007-988A-63CB64649C46}" s:par="" s:ph="footer-center-left" /><r uid="{A9A3075B-D290-4DF4-93CC-4492A192B6EF}" p:after="r[@uid='{1649DEAE-9A62-4BAD-A6C6-95FCBAABE95B}']" s:ds="{B68D1143-8429-4AD4-823F-49D228246CB3}" s:id="{F366FBA9-EF26-4007-988A-63CB64649C46}" s:par="" s:ph="footer-center-right" /><r uid="{3BA05402-D33D-46CE-BC13-AF65DB7A88FA}" p:after="r[@uid='{A9A3075B-D290-4DF4-93CC-4492A192B6EF}']" s:ds="{BE39ED94-5F4B-4DEE-BD35-C9653ACC5B78}" s:id="{F366FBA9-EF26-4007-988A-63CB64649C46}" s:par="" s:ph="footer-right" /><r uid="{AD920522-806C-4B23-9405-D005DA057AE4}" p:after="*[1=2]" s:id="{911E7A98-33C6-40CE-B24C-B7C5D82ADE57}" s:ph="messages" /></d><d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}" s:l="{2BC97063-6736-48E4-916C-6DE20C64606C}"><r uid="{BF224D1F-B702-4CC5-92D9-9278140E09DE}" s:ds="" s:id="{946517BC-5838-4D31-AECF-67156F4DDA12}" s:par="" s:ph="page-layout" /></d></r>
+----version----
+language: en
+version: 1
+revision: bbf0f6c2-4ce3-4f6f-bbce-68373e66f542
+
+----field----
+field: {9E13E4AD-A169-42EF-BB85-F8257A080B00}
+name: Order Number Label
+key: order number label
+content-length: 12
+
+Order number
+----field----
+field: {E4D24DDF-4336-4A36-8252-6DB88EF93FE9}
+name: Order Date Label
+key: order date label
+content-length: 10
+
+Order date
+----field----
+field: {B7BC66A7-2FBD-4A75-BAE1-B4255C4896BF}
+name: Order Status Label
+key: order status label
+content-length: 12
+
+Order Status
+----field----
+field: {8809E952-4681-4F4B-AEDE-199F27929ECF}
+name: Color Label
+key: color label
+content-length: 5
+
+Color
+----field----
+field: {DB9C6C0C-9A3E-45A3-A14B-5921F37BFD69}
+name: Delivery Label
+key: delivery label
+content-length: 8
+
+Delivery
+----field----
+field: {258B65F7-553D-4B86-9642-9F1AD528EE55}
+name: Savings Label
+key: savings label
+content-length: 7
+
+Savings
+----field----
+field: {1FAF7AFC-168A-4793-97EA-42C28AF2AAF9}
+name: Promotion Codes Label
+key: promotion codes label
+content-length: 15
+
+Promotion Codes
+----field----
+field: {AC13E44D-DF37-4619-A140-225553293FE7}
+name: Loyalty Card Label
+key: loyalty card label
+content-length: 12
+
+Loyalty Card
+----field----
+field: {3564A1F4-4988-47B1-A8BF-FC00969E22D1}
+name: Subtotal Label
+key: subtotal label
+content-length: 8
+
+Subtotal
+----field----
+field: {06126E2E-1A2F-42C4-8B74-CD7AA7E6C4AF}
+name: Shipping Total Label
+key: shipping total label
+content-length: 14
+
+Shipping total
+----field----
+field: {7EC57576-A58A-465D-9E5E-EBFD9EB94980}
+name: Tax Total Label
+key: tax total label
+content-length: 3
+
+VAT
+----field----
+field: {BD92CEE4-B867-4D67-9708-3F0B6D33BF6D}
+name: Order Total Label
+key: order total label
+content-length: 11
+
+Order Total
+----field----
+field: {0DD06FFB-7B7A-4B83-92BC-C92664CD10B0}
+name: Shipping Address Label
+key: shipping address label
+content-length: 16
+
+Shipping Address
+----field----
+field: {97D77995-A3BA-4C22-AED5-094174626610}
+name: Billing Address Label
+key: billing address label
+content-length: 15
+
+Billing Address
+----field----
+field: {C97AFCFE-8170-4E47-A7A6-0775B7E94E14}
+name: Shipping Method Label
+key: shipping method label
+content-length: 15
+
+Shipping Method
+----field----
+field: {577520DE-AA1E-46FE-8AEF-872E19301CFC}
+name: Payments Label
+key: payments label
+content-length: 8
+
+Payments
+----field----
+field: {AE228CB9-9406-4ED4-939D-ED4A7DF09652}
+name: View All Orders Label
+key: view all orders label
+content-length: 15
+
+View All Orders
+----field----
+field: {8FB602A4-1F4C-4D47-929E-5507E697A555}
+name: Discount Label
+key: discount label
+content-length: 8
+
+Discount
+----field----
+field: {2846E9BF-663C-48E3-92C7-75B77D8ADDEF}
+name: Your Products Header
+key: your products header
+content-length: 13
+
+Your Products
+----field----
+field: {F53A75B0-CB77-42DE-9976-94CAB83ED6F0}
+name: Loyalty Rewards Header
+key: loyalty rewards header
+content-length: 15
+
+Loyalty Rewards
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150105T204831Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bbf0f6c2-4ce3-4f6f-bbce-68373e66f542
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160809T095803Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

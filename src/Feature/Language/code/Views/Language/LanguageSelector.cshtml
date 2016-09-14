@@ -1,0 +1,36 @@
+﻿@using Sitecore.Feature.Language.Infrastructure.Repositories
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    var activeLanguage = LanguageRepository.GetActive();    
+    var languages = LanguageRepository.GetSupportedLanguages().ToArray();
+    if (languages.Length <= 1)
+    {
+        return;
+    }
+}
+
+<div id="B01-LanguageSelector" class="language-selector">
+    <a href="#" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+        <span class="glyphicon glyphicon-globe"></span>
+        @if (activeLanguage != null)
+        {
+            <span>@activeLanguage.NativeName</span>
+        }
+    </a>
+
+    @*Show language drop menu if count greater than 1*@
+    @if (languages.Length > 1)
+    {
+        <ul class="dropdown-menu language-menu" role="menu" aria-labelledby="dLabel">
+            @foreach (var language in languages)
+            {
+                if (language != activeLanguage)
+                {
+                    <li><a id="languageButton-@language.NativeName" href="@language.Url">@language.NativeName (@language.Name)</a></li>
+                }
+            }
+        </ul>
+    }
+</div>

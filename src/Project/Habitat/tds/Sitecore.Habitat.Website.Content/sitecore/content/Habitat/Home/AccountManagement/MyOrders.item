@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {9F6B0568-20E9-48F5-94B9-1188F5FB6E6E}
+database: master
+path: /sitecore/content/Habitat/Home/AccountManagement/MyOrders
+parent: {4D316BBA-345F-4929-9E84-A2208C0F7AA6}
+name: MyOrders
+master: {00000000-0000-0000-0000-000000000000}
+template: {040E1CDC-6620-4A3C-B965-CE5323C05984}
+templatekey: MyOrders Page
+created: 20160719T043235:636044995559200000
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 4656
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{ED043C36-CD48-4EDF-A288-EC404EE1CD42}"><r uid="{0E2D603A-CF36-4EE2-B598-D2E06AEBD5AE}"><p:d /></r><r uid="{17F64DAC-2A2C-4F61-A993-F3BC59203AA0}"><p:d /></r><r uid="{1B0865BA-8725-40D7-B472-5466055F1834}"><p:d /></r><r uid="{8C308774-5362-4996-A416-527ED85204F1}"><p:d /></r><r uid="{8D8DA13C-563D-4071-95C1-A0C965CC7B75}"><p:d /></r><r uid="{1A6AE860-A323-460D-B8D7-CEFA22469672}"><p:d /></r><r uid="{D0FFD21B-BDDF-4C59-A150-C43C76CABF37}"><p:d /></r><r uid="{5D2C83EE-F8CA-41B9-BBF2-03CBC74D3F52}"><p:d /></r><r uid="{0D3D37F8-ED81-4F72-B7C2-8D5AF8EB0094}"><p:d /></r><r uid="{3C2F52A6-A439-456D-A812-04A831DB8A0F}"><p:d /></r><r uid="{F720367A-12C1-4818-887C-EB6B70A32640}"><p:d /></r><r uid="{D26D50A5-EAAC-467B-A1BF-7C08F1C7C0A6}"><p:d /></r><r uid="{3FD3A4D1-8A03-4753-BE08-E58C4CF7C66A}" s:ds="" s:par="" s:ph="page-main" /><r uid="{90413A71-AF3B-426B-938F-DCD2F2968374}"><p:d /></r><r uid="{2A6DCD26-E22B-4B27-B4C1-F1105D4C62F7}" p:after="r[@uid='{3FD3A4D1-8A03-4753-BE08-E58C4CF7C66A}']" s:id="{C28B9C5F-8E01-42EC-ADF6-3324FAF92C7D}" s:ph="header-top" /><r uid="{839FAC12-93A5-4D01-9447-95FC90B454B9}" p:after="r[@uid='{2A6DCD26-E22B-4B27-B4C1-F1105D4C62F7}']" s:id="{2695013C-DD51-410B-9983-F271F16C727D}" s:ph="left-header-top" /><r uid="{69E81132-23C1-423E-9D7E-3F40C71FB34B}" p:after="r[@uid='{839FAC12-93A5-4D01-9447-95FC90B454B9}']" s:ds="{B5F108D3-651F-4344-BF9B-8F10675DDBA0}" s:id="{A00F70C8-8472-4C86-9E3A-1B7D245DD026}" s:par="" s:ph="center-header-top" /><r uid="{4C24AB2F-731A-4EB0-BC59-7FA317DCA211}" p:after="r[@uid='{69E81132-23C1-423E-9D7E-3F40C71FB34B}']" s:ds="{9988B682-59C7-4319-8BF9-7071F132A5AD}" s:id="{9AA8E388-A6BD-46E1-A73B-DDEF601DE6F8}" s:par="" s:ph="right-header-top" /><r uid="{3536564C-CDA8-4DA1-8E9C-3A6B9C88D809}" p:after="r[@uid='{4C24AB2F-731A-4EB0-BC59-7FA317DCA211}']" s:id="{E26A158B-FA1E-4E9B-8622-E4458243FF46}" s:ph="navbar" /><r uid="{5CDB488B-0D56-4D1D-ACDA-EAC9E6F26CD8}" p:after="r[@uid='{3536564C-CDA8-4DA1-8E9C-3A6B9C88D809}']" s:id="{3B5A2AD7-7BD8-447C-AB1F-513B0F7536EA}" s:ph="navbar-extra" /><r uid="{119BD2DB-00F3-4809-B6A9-A02144EAF2F8}" p:after="r[@uid='{5CDB488B-0D56-4D1D-ACDA-EAC9E6F26CD8}']" s:ds="{98CE979E-638E-4EE0-AD7F-05164173F1C1}" s:id="{A47C8288-7D4C-45FF-B75F-4AEDBF58A02D}" s:par="" s:ph="navbar-extra-left" /><r uid="{F21C1CC6-041E-46BA-9307-158A34812D82}" p:after="r[@uid='{119BD2DB-00F3-4809-B6A9-A02144EAF2F8}']" s:ds="{5886D851-1625-48AE-A787-84FC5B5EB271}" s:id="{ECF44B36-1479-4B15-871E-8DD87226B92D}" s:par="" s:ph="navbar-extra-right" /><r uid="{AF6940C5-0876-4EDB-B697-4C06BE998EED}" p:after="r[@uid='{F21C1CC6-041E-46BA-9307-158A34812D82}']" s:ds="{889A6934-BCDC-4294-94B7-6D141E7312B4}" s:id="{CFD437A6-404A-4C8C-8A41-EED2FB86D5DE}" s:par="" s:ph="navbar-main" /><r uid="{0DB7F006-034A-41B7-BC2E-B55492594193}" p:after="r[@uid='{AF6940C5-0876-4EDB-B697-4C06BE998EED}']" s:id="{A2216CA7-B205-4042-A345-72117D0086C3}" s:ph="page-layout" /><r uid="{0EF3C4DD-920F-4E5F-9CCC-C909FE8BBA1F}" p:after="r[@uid='{0DB7F006-034A-41B7-BC2E-B55492594193}']" s:id="{092B8953-939D-4717-B22C-70A1671FDCF5}" s:ph="page-header" /><r uid="{DE4B474B-3A16-4A1B-8A48-41D6F2B65528}" p:after="r[@uid='{0EF3C4DD-920F-4E5F-9CCC-C909FE8BBA1F}']" s:id="{299FD8EA-2CFD-4A69-9CA4-7EA24CD34A46}" s:ph="footer" /><r uid="{07078A92-ED72-4A00-B786-A19F00607A4E}" p:after="r[@uid='{DE4B474B-3A16-4A1B-8A48-41D6F2B65528}']" s:ds="{2F1FC7A0-EDA8-48DC-AF4C-B7C4EA1776F2}" s:id="{F366FBA9-EF26-4007-988A-63CB64649C46}" s:par="" s:ph="footer-left" /><r uid="{191023CF-D6DD-4242-ADDF-5EA26FE33383}" p:after="r[@uid='{07078A92-ED72-4A00-B786-A19F00607A4E}']" s:ds="{CAC161D0-F558-4E05-ACA0-086F377D38E8}" s:id="{F366FBA9-EF26-4007-988A-63CB64649C46}" s:par="" s:ph="footer-center-left" /><r uid="{7FD3DB8F-D21E-4917-9E7A-2150F07DD650}" p:after="r[@uid='{191023CF-D6DD-4242-ADDF-5EA26FE33383}']" s:ds="{B68D1143-8429-4AD4-823F-49D228246CB3}" s:id="{F366FBA9-EF26-4007-988A-63CB64649C46}" s:par="" s:ph="footer-center-right" /><r uid="{0EB2B661-604F-4B5F-A417-D21205EEF1CD}" p:after="r[@uid='{7FD3DB8F-D21E-4917-9E7A-2150F07DD650}']" s:ds="{BE39ED94-5F4B-4DEE-BD35-C9653ACC5B78}" s:id="{F366FBA9-EF26-4007-988A-63CB64649C46}" s:par="" s:ph="footer-right" /><r uid="{86909636-1014-40E9-9DE6-E6D4F92D7520}" p:after="*[1=2]" s:id="{911E7A98-33C6-40CE-B24C-B7C5D82ADE57}" s:ph="messages" /></d><d id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}" s:l="{2BC97063-6736-48E4-916C-6DE20C64606C}"><r uid="{6A90262A-933D-4C9C-9F01-2714CA3886A2}" s:ds="" s:id="{946517BC-5838-4D31-AECF-67156F4DDA12}" s:par="" s:ph="page-layout" /></d></r>
+----version----
+language: en
+version: 1
+revision: 37639cd4-4cf3-4aef-81dd-7b5771ae0019
+
+----field----
+field: {36DF18A7-4794-4C9C-BC61-EA515494F82D}
+name: Back to My Account Label
+key: back to my account label
+content-length: 18
+
+Back to My Account
+----field----
+field: {B5CB89F5-AD33-4D61-9C99-BE47B0750D56}
+name: Order Number Label
+key: order number label
+content-length: 12
+
+Order number
+----field----
+field: {F4E176DC-4D51-408F-9CB3-6C22381E55B5}
+name: Order Date Label
+key: order date label
+content-length: 10
+
+Order date
+----field----
+field: {50067D29-1AF0-4AF8-B051-A507C0FA2E2A}
+name: Order Status Label
+key: order status label
+content-length: 12
+
+Order status
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141229T175709Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+37639cd4-4cf3-4aef-81dd-7b5771ae0019
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160809T095809Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

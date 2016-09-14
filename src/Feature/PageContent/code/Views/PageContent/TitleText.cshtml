@@ -1,0 +1,6 @@
+﻿@using Sitecore.Feature.PageContent
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<h1>@Html.Sitecore().Field(Templates.HasPageContent.Fields.Title.ToString(), @Model.Item)</h1>
+
+<p>@Html.Sitecore().Field(Templates.HasPageContent.Fields.Text.ToString(), @Model.Item)</p>

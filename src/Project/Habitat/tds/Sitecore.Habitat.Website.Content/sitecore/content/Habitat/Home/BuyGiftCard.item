@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {75475811-76AB-4B20-88F4-804DEBF34563}
+database: master
+path: /sitecore/content/Habitat/Home/BuyGiftCard
+parent: {DAC24EDD-44FB-42EF-9ECD-1E8DAF706386}
+name: BuyGiftCard
+master: {00000000-0000-0000-0000-000000000000}
+template: {23DD8A7E-1710-446B-B712-C223716505E9}
+templatekey: GiftCard Page
+created: 20160705T114418:636033158587170000
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 219
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{737CE65B-B97B-4C6D-86CE-F8E08DE22B46}" p:after="*[1=2]" s:id="{911E7A98-33C6-40CE-B24C-B7C5D82ADE57}" s:ph="messages" /></d></r>
+----version----
+language: en
+version: 1
+revision: 378d1a3c-7f9d-4375-ab01-26fd737386f3
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150115T171906Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+378d1a3c-7f9d-4375-ab01-26fd737386f3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160801T151709Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

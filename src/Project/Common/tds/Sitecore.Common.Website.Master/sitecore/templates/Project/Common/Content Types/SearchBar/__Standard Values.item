@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {0F71A71C-55C7-498F-BFC7-30C8315DB6FB}
+database: master
+path: /sitecore/templates/Project/Common/Content Types/SearchBar/__Standard Values
+parent: {37974069-D340-47B9-956F-49AFC39B5169}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {37974069-D340-47B9-956F-49AFC39B5169}
+templatekey: SearchBar
+created: 20160705T114342:636033158220970000
+
+----field----
+field: {FD4E2050-186C-4375-8B99-E8A85DD7436E}
+name: __Enable item fallback
+key: __enable item fallback
+content-length: 1
+
+1
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 32
+
+applications/32x32/view_next.png
+----version----
+language: en
+version: 1
+revision: ba7a0b55-e59b-4ac5-9ec3-c641f21d1917
+
+----field----
+field: {EE8CD542-F88E-49C7-8BB4-9190EDAD1272}
+name: Search
+key: search
+content-length: 6
+
+Search
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150922T124723Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ba7a0b55-e59b-4ac5-9ec3-c641f21d1917
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160725T194514Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

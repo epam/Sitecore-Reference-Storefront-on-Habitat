@@ -1,0 +1,129 @@
+----item----
+version: 1
+id: {E0219FA7-CB75-4CE1-B9C8-E167B33569D6}
+database: master
+path: /sitecore/templates/Feature/Search/_SearchPanel/__Standard Values
+parent: {8BE1206D-CB18-4871-AE89-B5A51A44FB65}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {8BE1206D-CB18-4871-AE89-B5A51A44FB65}
+templatekey: _SearchPanel
+created: 20160815T161650:636068746101930000
+
+----field----
+field: {FD4E2050-186C-4375-8B99-E8A85DD7436E}
+name: __Enable item fallback
+key: __enable item fallback
+content-length: 1
+
+1
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 31
+
+applications/16x16/document.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----version----
+language: en
+version: 1
+revision: 3c9b2b26-c3e8-44f0-a498-df0c3e046505
+
+----field----
+field: {7DAE4441-1832-472A-AD46-BA1B088FAF83}
+name: Category
+key: category
+content-length: 8
+
+Category
+----field----
+field: {663B9F9E-32F1-40A7-8B54-32117ADB794B}
+name: Item number
+key: item number
+content-length: 12
+
+Item number:
+----field----
+field: {E162C24F-D680-404C-B227-183DEA23B5DC}
+name: Description
+key: description
+content-length: 12
+
+Description:
+----field----
+field: {4FD9927A-7E31-492F-96EB-E19A3B2AD0E1}
+name: Color
+key: color
+content-length: 6
+
+Color:
+----field----
+field: {BF3756C4-A5D7-4DD3-B969-46F1B5FF7E97}
+name: Size
+key: size
+content-length: 5
+
+Size:
+----field----
+field: {D1A1C215-DFC4-4568-9FE3-C047FED16777}
+name: Save percent lead
+key: save percent lead
+content-length: 10
+
+Save up to
+----field----
+field: {249D1014-A951-4F93-9AEB-F7F773E12598}
+name: Invalid Variant
+key: invalid variant
+content-length: 40
+
+This color/size combination is not valid
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141106T115553Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3c9b2b26-c3e8-44f0-a498-df0c3e046505
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160816T072658Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

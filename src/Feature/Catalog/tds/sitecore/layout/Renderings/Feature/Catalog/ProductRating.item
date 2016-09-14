@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {49424190-0EFA-4414-8D18-4569CC8EA5FD}
+database: master
+path: /sitecore/layout/Renderings/Feature/Catalog/ProductRating
+parent: {4D541903-17DA-40EB-A9E4-DBF8F682ECEB}
+name: ProductRating
+master: {00000000-0000-0000-0000-000000000000}
+template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
+templatekey: Controller rendering
+created: 20160705T114420:636033158609400000
+
+----field----
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 80
+
+Sitecore.Feature.Catalog.Controllers.CatalogController, Sitecore.Feature.Catalog
+----field----
+field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
+name: Controller Action
+key: controller action
+content-length: 13
+
+ProductRating
+----field----
+field: {C7C26117-DBB1-42B2-AB5E-F7223845CCA3}
+name: __Thumbnail
+key: __thumbnail
+content-length: 58
+
+<image mediaid="{9272BA9C-DBFC-40E0-B2D3-A0074FA6FC97}" />
+----version----
+language: en
+version: 1
+revision: 7f429181-9a9d-4d6b-9af4-54974de854b5
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141023T032706Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7f429181-9a9d-4d6b-9af4-54974de854b5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160712T161548Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

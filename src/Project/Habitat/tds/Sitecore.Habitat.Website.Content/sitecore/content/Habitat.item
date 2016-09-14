@@ -1,0 +1,127 @@
+----item----
+version: 1
+id: {725A45E3-E307-4B95-B363-2782B059DF06}
+database: master
+path: /sitecore/content/Habitat
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: Habitat
+master: {00000000-0000-0000-0000-000000000000}
+template: {0643D9D4-F30B-4B07-91D0-289CC324C9CF}
+templatekey: Site Root
+created: 20160705T111343:636033140233030000
+
+----field----
+field: {5F115B6D-6052-4C7E-B442-AE923A7E9BD2}
+name: SupportedLanguages
+key: supportedlanguages
+content-length: 155
+
+{AF584191-45C9-4201-8740-5409F4CF8BDD}|{DF542621-5622-48F1-9D49-96FC6142DA46}|{58DBFB86-6520-43AF-A27F-B7C1B1338E0E}|{13A5B79F-42A7-4095-BC3B-A673C5FDCC81}
+----version----
+language: da
+version: 1
+revision: a70e9fb4-62c0-468f-ba8f-8015d9c585c6
+
+----field----
+field: {235AE392-97AC-4822-BE38-837DA3E7724E}
+name: SiteBrowserTitle
+key: sitebrowsertitle
+content-length: 36
+
+ - Habitat Sitecore Framework Rammer
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160105T102340Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a70e9fb4-62c0-468f-ba8f-8015d9c585c6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160808T145252Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: a20f5265-e4ea-4fdb-9a87-e32c53d30afb
+
+----field----
+field: {235AE392-97AC-4822-BE38-837DA3E7724E}
+name: SiteBrowserTitle
+key: sitebrowsertitle
+content-length: 29
+
+ - Habitat Sitecore Framework
+----field----
+field: {B8027200-AAB0-4876-B454-DBB85ADD9E3C}
+name: HostName
+key: hostname
+content-length: 24
+
+storefront-habitat.local
+----field----
+field: {12537182-F35C-403F-AFB5-747D55C450B8}
+name: ShowInMenu
+key: showinmenu
+content-length: 1
+
+1
+----field----
+field: {F07811D3-41E9-440A-9D81-310C1D78BED6}
+name: Title
+key: title
+content-length: 23
+
+Storefront-Habitat Site
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150824T171748Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a20f5265-e4ea-4fdb-9a87-e32c53d30afb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160808T145252Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

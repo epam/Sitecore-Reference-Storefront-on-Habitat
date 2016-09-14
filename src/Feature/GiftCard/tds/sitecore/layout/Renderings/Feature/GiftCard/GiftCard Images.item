@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {AB9B7AA1-3F3C-4A22-892D-946D09CFAA8D}
+database: master
+path: /sitecore/layout/Renderings/Feature/GiftCard/GiftCard Images
+parent: {00D960DB-4E3A-4BA6-9A88-D71D62FE6AF3}
+name: GiftCard Images
+master: {00000000-0000-0000-0000-000000000000}
+template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
+templatekey: Controller rendering
+created: 20160721T133345:636047048253070000
+
+----field----
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 83
+
+Sitecore.Feature.GiftCard.Controllers.GiftCardController, Sitecore.Feature.GiftCard
+----field----
+field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
+name: Controller Action
+key: controller action
+content-length: 14
+
+GiftCardImages
+----version----
+language: en
+version: 1
+revision: c2d937a9-8829-4eb5-9d7a-a49ca7dfbcb8
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160721T133345Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c2d937a9-8829-4eb5-9d7a-a49ca7dfbcb8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160721T133426Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,108 @@
+----item----
+version: 1
+id: {2020C485-9E96-47B1-981A-4F2F6083B7A2}
+database: master
+path: /sitecore/templates/Project/Common/Content Types/MiniCart/__Standard Values
+parent: {A59DB217-0B2A-4E79-AA72-11743FECF500}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {A59DB217-0B2A-4E79-AA72-11743FECF500}
+templatekey: MiniCart
+created: 20160705T114337:636033158177200000
+
+----version----
+language: en
+version: 1
+revision: 48a37067-1577-4911-a58d-f2a920e59e52
+
+----field----
+field: {7D5F847F-09C2-499F-BF59-5FB07829AD82}
+name: Cart
+key: cart
+content-length: 4
+
+Cart
+----field----
+field: {DFE0F97D-5A01-4C23-9037-4637EA48B1A5}
+name: Quantity
+key: quantity
+content-length: 8
+
+Quantity
+----field----
+field: {BE9EBF28-579F-4B25-A851-85EA2DDFB719}
+name: Price
+key: price
+content-length: 5
+
+Price
+----field----
+field: {E9C22DF9-5E98-4CFB-8A76-34521297332D}
+name: Title
+key: title
+content-length: 18
+
+items in your cart
+----field----
+field: {E5827172-F48C-4E97-8D48-DD546F6C6318}
+name: Total
+key: total
+content-length: 5
+
+Total
+----field----
+field: {67021CB8-3C03-4D60-AA4C-76024E6463F9}
+name: View Cart Label
+key: view cart label
+content-length: 9
+
+View cart
+----field----
+field: {C348822F-F374-40A7-8CEB-58240DB301F5}
+name: Checkout Label
+key: checkout label
+content-length: 8
+
+Checkout
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141122T234130Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+48a37067-1577-4911-a58d-f2a920e59e52
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160819T154746Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,20 @@
+﻿@using Sitecore.Feature.Identity.Repositories
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    var identity = IdentityRepository.Get(Model.Item);
+    if (identity == null)
+    {
+        return;
+    }
+    //TODO: Resolve context site from item (implement in Foundation.Multisite)
+    var homeUrl = Sitecore.Context.Site?.GetStartItem()?.GetUrl() ?? "/";
+}
+
+<div id="B04-Logo" class="logo">
+    <a href="@homeUrl">
+        @Html.Sitecore().Field("Image")
+    </a>
+</div>

@@ -1,0 +1,148 @@
+----item----
+version: 1
+id: {1011CA46-6D7F-4147-BE0A-F92D85E1ADB6}
+database: master
+path: /sitecore/templates/Commerce/Catalog/Commerce Custom Catalog/__Standard Values
+parent: {19988B71-6F3D-43EB-8253-E6D451878922}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {19988B71-6F3D-43EB-8253-E6D451878922}
+templatekey: Commerce Custom Catalog
+created: 20160708T103949:636035711895200000
+
+----field----
+field: {B5E7B1DF-4155-4862-8D81-1E63ED6D3BC2}
+name: Tools Navigation Facets
+key: tools navigation facets
+content-length: 155
+
+{311EE850-7B33-4155-BFC1-65FE989C29A3}|{EC455335-45F5-4E90-A198-948A78F158EE}|{61B49FB7-8E70-47EA-8D58-01ED198D9C28}|{CE4FF10F-8BC2-4CCA-9535-5235A4AA2C72}
+----field----
+field: {420373A7-F888-490A-ABD6-E1BA4FCB75E0}
+name: Tools Search Facets
+key: tools search facets
+content-length: 155
+
+{311EE850-7B33-4155-BFC1-65FE989C29A3}|{EC455335-45F5-4E90-A198-948A78F158EE}|{61B49FB7-8E70-47EA-8D58-01ED198D9C28}|{CE4FF10F-8BC2-4CCA-9535-5235A4AA2C72}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 30
+
+Business/32x32/tables_edit.png
+----field----
+field: {83798D75-DF25-4C28-9327-E8BAC2B75292}
+name: __Insert Rules
+key: __insert rules
+content-length: 38
+
+{4664108F-D564-432F-9761-A9A4C4DA3629}
+----version----
+language: de-DE
+version: 1
+revision: 727cef8b-3acc-4060-a4c8-7ff2e4047374
+
+----field----
+field: {738B32EE-B885-46A2-97C7-645915EBA217}
+name: ToolsIcon
+key: toolsicon
+content-length: 71
+
+/sitecore/shell/~/media/36FE9B7D0C324410A5AA1F2353ADC574.ashx?db=master
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160708T104031Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+727cef8b-3acc-4060-a4c8-7ff2e4047374
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160708T104031Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+sitecore\Anonymous
+----version----
+language: en
+version: 1
+revision: 7e783ada-6c23-45a1-8e4f-96a7aee022d0
+
+----field----
+field: {738B32EE-B885-46A2-97C7-645915EBA217}
+name: ToolsIcon
+key: toolsicon
+content-length: 71
+
+/sitecore/shell/~/media/36FE9B7D0C324410A5AA1F2353ADC574.ashx?db=master
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131217T110957
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7e783ada-6c23-45a1-8e4f-96a7aee022d0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140314T094722:635303872422890479
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

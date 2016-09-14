@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {AEA0FF71-1E02-4677-945E-D5CBAF908BEA}
+database: master
+path: /sitecore/templates/Feature/Account/_ForgotPassword/Headers
+parent: {985C9342-C79C-47D2-A3F7-BDC6DCCC0BA7}
+name: Headers
+master: {00000000-0000-0000-0000-000000000000}
+template: {E269FBB5-3750-427A-9149-7AA950B49301}
+templatekey: Template section
+created: 20160705T114353:636033158339600000
+
+----version----
+language: en
+version: 1
+revision: f35c2e73-58da-44e4-8b24-092f63c58f95
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150110T091031Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f35c2e73-58da-44e4-8b24-092f63c58f95
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160812T120851Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

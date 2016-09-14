@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {90ECB30A-B370-45BA-B6B4-3DA7914834E2}
+database: master
+path: /sitecore/content/Habitat/Global/Lookups/Inventory Statuses
+parent: {446AE8C7-AECD-40AD-A10E-6077F18196EA}
+name: Inventory Statuses
+master: {00000000-0000-0000-0000-000000000000}
+template: {B59E0882-0880-421A-9E6D-1D065D99FAC3}
+templatekey: Inventory Statuses
+created: 20160708T102655:636035704154870000
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+150
+----version----
+language: en
+version: 1
+revision: b5796bd1-b508-45b0-97db-a16b3343fb18
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150223T142413Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b5796bd1-b508-45b0-97db-a16b3343fb18
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160818T142555Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

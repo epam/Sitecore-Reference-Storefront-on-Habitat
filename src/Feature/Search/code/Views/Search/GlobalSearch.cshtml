@@ -1,0 +1,14 @@
+﻿@model Sitecore.Feature.Search.Models.SearchSettings
+
+<li class="navbar-activity-search">
+  <form action="@Model.SearchResultsUrl" class="navbar-form" role="search">
+    <div class="form-group">
+      <input type="text" name="query" placeholder="@Model.SearchBoxTitle" autocomplete="off" />
+    </div>
+  </form>
+
+  <a href="#" class="btn navbar-toggle-search" data-toggle-class="is-searching" data-target="#mainNavbar">
+    <span class="glyphicon glyphicon-search"></span>
+  </a>
+</li>
+
